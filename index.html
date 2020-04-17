@@ -1,5 +1,41 @@
+<!DOCTYPE html>
 <html>
-<body style="background-color:black">
-    <img src="logo.png" style="vertical-align:top" />
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .background {
+            background-image: url("background.jpg");
+            background-color: #222;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .panel {
+            background: #000;
+        }
+
+        .logo {
+            height: 36px;
+            vertical-align: top;
+            padding: 14px 8px 4px 16px;
+            background: #000;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="panel">
+            <img src="logo.png" class="logo" />
+        </div>
+    </div>
 </body>
 </html>
